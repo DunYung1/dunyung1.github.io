@@ -154,7 +154,6 @@ hr.line2 {
     margin-left: 4em;
     margin-top: 2em;
 }
-
 .alone {
     display: inline-block;
     font-size: 16px;
@@ -162,19 +161,9 @@ hr.line2 {
     font-weight: 800;
 }
 
-.html {
-    margin-left: 7em;
+.lang {
     margin-top: 2em;
-}
-
-.css {
-    margin-left: 8em;
-    margin-top: 2em;
-}
-
-.js_py {
-    margin-left: 6em;
-    margin-top: 2em;
+    margin-left: 3.8em
 }
 
 .button {
@@ -224,7 +213,9 @@ hr.line2 {
     color: rgba(255, 255, 255, 0.9)!important;
     font-weight: 800;
 }
-
+.ikons{
+    text-align: center;
+}
 @media (min-width: 320px) and (max-width: 480px) {
     body {
         background-size: 200%;
@@ -245,4 +236,11 @@ hr.line2 {
     .details{
         margin-left: 0;
     } 
+    .techicon{
+        margin-left: 0;
+        text-align: center;
+    }
+    .lang{
+        margin-left: 0;
+    }
 }
