@@ -82,57 +82,47 @@ p.portfolio {
    margin-top: 0.1em;
 }
 
-.icon {
-    width: 2em;
-    height: 3em;
-    margin-right: 10px;
-}
 
 .contactsxn {
     display: flex;
     flex-direction: column;
 }
 
-.email,
-.location, .behance, .github,.linkedin {
-    display: flex;
-    align-items: center;
+.location {
+    display: inline-block;
+}
+
+.l_icon{
+    width: 2em;
+    height: 3em;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+.icon{
+    width: 2em;
+    height: 3em;
+    margin-right: 10px;
 }
 
 .circle{
-    width: 9%;
+    width: 37px;
+    height: 35px;
     margin-right: 10px;
-    margin-left: 3px;
 }
-
-.circle2{
-    width: 8%;
-    margin-right: 10px;
-    margin-left: 7px;
+.txtcontact {
+    margin-top: 13px;
 }
-
-.circle3{
-    width: 9%;
-    margin-right: 10px;
-    margin-left: 7px;
-    margin-top: -10px;
+.txtcontact2 {
+    margin-top: 6px;
 }
-
-p.txtcontact {
-    margin: 0;
-}
-
-p.txtcontact2{
-    margin-top: 14px;
-}
-
-p.txtcontact3{
-    margin-top: 9px;
+.katikati{
+    margin-left: 6em;
 }
 
 .ready {
     text-align: center;
     margin-top: 2em;
+    font-weight: 600;
 }
 
 .app-form-group {
@@ -180,12 +170,13 @@ p.txtcontact3{
     background-color: rgb(231, 174, 16);
     color: white;
 }
-
-
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 320px) and (max-width: 768px) {
     body {
         background-size: 200%;
     }
+    .katikati{
+        margin-left: 0;
+    }    
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
